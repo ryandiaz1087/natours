@@ -1,0 +1,18 @@
+@import "../abstracts/variables";
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+	font-size: 62.5%; /* this is 10px based off of browser default font at 16px*/
+}
+
+body {
+	box-sizing: border-box;
+}

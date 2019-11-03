@@ -1,0 +1,65 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "layout/header";
+
+@import "pages/home";
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-30rem);
+	}
+
+	80% {
+		transform: translateX(2rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(30rem);
+	}
+
+	80% {
+		transform: translateX(-2rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(3rem);
+	}
+
+	80% {
+		transform: translateY(-2rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+
+
